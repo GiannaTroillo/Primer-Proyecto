@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: linear-gradient(to right, #e2d4c2e8, #a87b274d, #af7b3f7e);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 15vh;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    min-height: 70vh;
+}
+
+footer {
+    min-height: 15vh;
+    background-image: linear-gradient(to left, #e2d4c2e8, #a87b274d, #af7b3f7e);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono {
+    width: 35px;
+    height: 35px;
+}
+
+.back-principal {
+    background-image: url(../recursos/pecas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*---------------ESTILO DEL INDEX-------------------*/
+.in-bg {
+    background-image: url(../recursos/pecas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index-presentacion {
+    color: #fcfbfbd5;
+    border: #cab38534 5px solid;
+    background-color: #f3dab527;
+    text-align: center;
+    margin: 45px;
+    margin-top: 100px;
+}
+
+.index-presentacion h1 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.index-presentacion h2 {
+    font-size: 20px;
+}
+
+.index-presentacion h3 {
+    font-size: 20px;
+    font-style: oblique;
+    padding: 25px;
+}
+
+/*--------------------------------------------TRAYECTORIA----------------------------*/
+#doctorcita {
+    width: 400px;
+    height: 490px;
+    margin: 10px;
+    border: solid 14px #fffcfc4b;
+}
+
+.trayectoria {
+    background-color: #e4e0de54;
+}
+
+.trayectoria h1 {
+    color: #fffcfcc5;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.seccion-trayectoria {
+    color: #fffcfcc5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seccion-trayectoria p {
+    padding: 20px;
+    max-width: 600px;
+}
+
+/*------------------------ESPECIALIDADES----------------------*/
+.main-especialidad {
+    background: #e2d4c2e8;
+}
+
+.main-especialidad h2 {
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.main-especialidad h4 {
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.d-c {
+    background-image: linear-gradient(to top, #e2d4c2e8, #a87b274d, #af7b3f60);
+    display: flex;
+    flex-direction: column;
+}
+
+.d-e {
+    background-image: linear-gradient(to top, #e2d4c2e8, #a87b274d, #af7b3f60);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.seccion-clinica {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 30vh;
+}
+
+.seccion-clinica ul li {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.seccion-est {
+    color: white;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.seccion-est ul li {
+    color: white;
+    list-style: none;
+    padding: 6px;
+}
+
+/*----------------------grilla clinica------------*/
+
+.grid-dc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "imagen1 imagen2 imagen3"
+        "imagen4 imagen5 imagen6"
+    ;
+    width: 400px;
+    height: 350px;
+    background-color: #f3eee99a;
+    margin: 10px;
+
+}
+
+.imagendc {
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagendc:hover {
+    scale: 1.1;
+}
+
+.imagen1 {
+    grid-area: imagen1;
+    background-image: url(../recursos/lunar.jfif)
+}
+
+.imagen2 {
+    grid-area: imagen2;
+    background-image: url(../recursos/melanoma.jpg)
+}
+
+.imagen3 {
+    grid-area: imagen3;
+    background-image: url(../recursos/pso.jfif)
+}
+
+.imagen4 {
+    grid-area: imagen4;
+    background-image: url(../recursos/alopecia.jfif)
+}
+
+.imagen5 {
+    grid-area: imagen5;
+    background-image: url(../recursos/acne.jfif)
+}
+
+.imagen6 {
+    grid-area: imagen6;
+    background-image: url(../recursos/micosis.jfif)
+}
+
+/*-----------grilla estetica-----------*/
+.grid-de {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "imagen7 imagen8 imagen9"
+        "imagen10 imagen11 imagen12"
+    ;
+    width: 400px;
+    height: 350px;
+    background-color: #f3eee99a;
+    margin: 15px;
+}
+
+.imagende {
+    margin: 5px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imagende:hover {
+    scale: 1.1;
+}
+
+.imagen7 {
+    grid-area: imagen7;
+    background-image: url(../recursos/peeling-fac.jfif)
+}
+
+.imagen8 {
+    grid-area: imagen8;
+    background-image: url(../recursos/btx.jpg)
+}
+
+.imagen9 {
+    grid-area: imagen9;
+    background-image: url(../recursos/abdo.jpg)
+}
+
+.imagen10 {
+    grid-area: imagen10;
+    background-image: url(../recursos/arm-fac.jpg)
+}
+
+.imagen11 {
+    grid-area: imagen11;
+    background-image: url(../recursos/tres-2.jpg)
+}
+
+.imagen12 {
+    grid-area: imagen12;
+    background-image: url(../recursos/labios.jpg)
+}
+/*----------------ESTILO DE CONTACTO-----------------------*/
+.seccion-contacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-width: auto;
+    margin:30px;
+}
+
+.caja {
+    border: solid 8px #cab38593;
+    color: white;
+    overflow: hidden;
+    width: 450px;
+    height: 450px;
+    margin: 10px;
+}
+.caja h2 {
+    text-align: center;
+}
+.caja p{
+    text-align: left;
+}
+input {    
+    background: #f3e1be94;
+    border: solid #5a4b4ba2 1.5px;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    min-width: 420px;}
+textarea {
+    background: #f3e1be94;  
+    border: solid #5a4b4ba2 1.5px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+iframe {
+    width: 425px;
+    height: 400px;
+}
+/*----------------MQ-----------------*/
+@media (max-width:700px) {
+    .header nav ul {
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    .header li {
+        padding: 6px;
+    }
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer div {
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .icono {
+        width: 25px;
+        height: 25px;
+    }
+
+    .index-presentacion {
+        margin: 25px;
+        margin-top: 80px;
+    }
+
+    .index-presentacion h1 {
+        font-size: 18px;
+    }
+
+    .index-presentacion h2 h3 {
+        font-size: 16px;
+    }
+
+    .seccion-trayectoria {
+        flex-direction: column-reverse;
+    }
+    #doctorcita {
+        width: 215px;
+        height: 283px;
+        border: solid 15px #fffcfc4b;
+    }
+.caja h2{
+    font-size: 18px;
+}
+    .caja p {
+        font-size: 16px;
+
+    }
+}
+
+@media(max-width: 500px) {
+    .caja{
+        border: solid 5px #cab38593;
+        width: 300px;
+        height: 350px;
+    }
+    input{
+        min-width: 270px;
+        padding: 0%;
+    }
+    textarea{
+        height: 300px;
+        width: 270px;
+    }
+}
+
+
+
