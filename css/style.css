@@ -173,12 +173,14 @@ footer div {
 /*----------------------grilla clinica------------*/
 .rama-grilla{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .rama-esp{
     color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .rama-esp ul li{
     list-style: none;
@@ -393,6 +395,11 @@ iframe {
     }
 }
 
+@media(max-width:950){
+    .rama-esp{flex-direction: column;
+    }
+
+}
 @media(max-width: 500px) {
     .caja{
         border: solid 5px #cab38593;

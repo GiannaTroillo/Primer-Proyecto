@@ -1,0 +1,63 @@
+        <main class="main-especialidad">
+            <section class="d-c">
+                <div>
+                    <h2>Dermatología Clínica</h2>
+                    <h4>Algunas de las lesiones que vemos con mayor frecuencia en el consultorio</h4>
+                </div>
+                <div class="seccion-clinica">
+                    <ul>
+                        <li>Nevus o lunares</li>
+                        <li>Cáncer de Piel</li>
+                        <li>Psoriasis</li>
+                        <li>Alopecía</li>
+                        <li>Acné</li>
+                        <li>Micosis</li>
+                    </ul>
+                    <section class="grid-dc">
+                        <div class="imagendc imagen1"></div>
+                        <div class="imagendc imagen2"></div>
+                        <div class="imagendc imagen3"></div>
+                        <div class="imagendc imagen4"></div>
+                        <div class="imagendc imagen5"></div>
+                        <div class="imagendc imagen6"></div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="d-e">
+                <div>
+                    <h2>Dermatología Estética</h2>
+                    <h4>Suavizar y Armonizar cambios que se producen por el correr del tiempo</h4>
+                </div>
+                <div>
+                    <section class="seccion-est">
+                        <ul>
+                            <h3>Tratamientos Faciales</h3>
+                            <li>Peeling</li>
+                            <li>Toxina Botulínica</li>
+                            <li>Skinboosters</li>
+                            <li>Plasma rico en plaquetas</li>
+                            <li>Armonización Facial</li>
+                            <li>Escultura labial</li>
+                            <li>Mesoterapia</li>
+                            <li>Plasma Jet</li>
+                        </ul>
+                        <ul>
+                            <h3>Tratamientos Corporales</h3>
+                            <li>Mesoterapia corporal</li>
+                            <li>Mesoterapia capilar</li>
+                            <li>Plasma Jet</li>
+                            <li>Radiofrecuencia</li>
+                            <li>Ultracavitación</li>
+                        </ul>
+                        <section class="grid-de">
+                            <div class="imagende imagen7"></div>
+                            <div class="imagende imagen8"></div>
+                            <div class="imagende imagen9"></div>
+                            <div class="imagende imagen10"></div>
+                            <div class="imagende imagen11"></div>
+                            <div class="imagende imagen12"></div>
+                        </section>
+                </div>
+            </section>
+        </main>
