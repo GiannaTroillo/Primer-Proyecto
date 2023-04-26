@@ -52,7 +52,6 @@ footer div {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 /*---------------ESTILO DEL INDEX-------------------*/
 .in-bg {
     background-image: url(../recursos/pecas.jpg);
@@ -109,68 +108,7 @@ footer div {
     max-width: 600px;
 }
 /*------------------------ESPECIALIDADES----------------------*/
-.main-especialidad {
-    background: #e2d4c2e8;
-}
-.main-especialidad h2 {
-    color: white;
-    font-weight: 800;
-    text-align: center;
-    padding: 5px;
-}
-.main-especialidad h4 {
-    color: white;
-    font-weight: 800;
-    text-align: center;
-    padding: 5px;
 
-}
-
-.d-c {
-    background-image: linear-gradient(to top, #e2d4c2e8, #a87b274d, #af7b3f60);
-    display: flex;
-    flex-direction: column;
-}
-
-.d-e {
-    background-image: linear-gradient(to top, #e2d4c2e8, #a87b274d, #af7b3f60);
-    display: flex;
-    flex-direction: column;
-
-}
-
-.seccion-clinica {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    min-height: 30vh;
-}
-
-.seccion-clinica ul li {
-    color: white;
-    list-style: none;
-    font-size: 20px;
-    padding: 8px;
-}
-
-.seccion-est {
-    color: white;
-    min-height: 40vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.seccion-est ul li {
-    color: white;
-    list-style: none;
-    padding: 6px;
-}
-
-/*----------------------grilla clinica------------*/
 .rama-grilla{
     display: flex;
     justify-content: center;
@@ -185,6 +123,7 @@ footer div {
 .rama-esp ul li{
     list-style: none;
 }
+/*----------------------grilla clinica------------*/
 .grid-dc {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -199,7 +138,6 @@ footer div {
     margin: 10px;
 
 }
-
 .imagendc {
     margin: 5px;
     background-position: center;
@@ -207,41 +145,33 @@ footer div {
     background-size: cover;
     transition: 0.5s;
 }
-
 .imagendc:hover {
     scale: 1.1;
 }
-
 .imagen1 {
     grid-area: imagen1;
     background-image: url(../recursos/lunar.jfif)
 }
-
 .imagen2 {
     grid-area: imagen2;
     background-image: url(../recursos/melanoma.jpg)
 }
-
 .imagen3 {
     grid-area: imagen3;
     background-image: url(../recursos/pso.jfif)
 }
-
 .imagen4 {
     grid-area: imagen4;
     background-image: url(../recursos/alopecia.jfif)
 }
-
 .imagen5 {
     grid-area: imagen5;
     background-image: url(../recursos/acne.jfif)
 }
-
 .imagen6 {
     grid-area: imagen6;
     background-image: url(../recursos/micosis.jfif)
 }
-
 /*-----------grilla estetica-----------*/
 .grid-de {
     display: grid;
@@ -256,43 +186,35 @@ footer div {
     background-color: #f3eee99a;
     margin: 15px;
 }
-
 .imagende {
     margin: 5px;
     background-position: center;
     background-size: cover;
     transition: 0.5s;
 }
-
 .imagende:hover {
     scale: 1.1;
 }
-
 .imagen7 {
     grid-area: imagen7;
     background-image: url(../recursos/peeling-fac.jfif)
 }
-
 .imagen8 {
     grid-area: imagen8;
     background-image: url(../recursos/btx.jpg)
 }
-
 .imagen9 {
     grid-area: imagen9;
     background-image: url(../recursos/abdo.jpg)
 }
-
 .imagen10 {
     grid-area: imagen10;
     background-image: url(../recursos/arm-fac.jpg)
 }
-
 .imagen11 {
     grid-area: imagen11;
     background-image: url(../recursos/tres-2.jpg)
 }
-
 .imagen12 {
     grid-area: imagen12;
     background-image: url(../recursos/labios.jpg)
@@ -306,7 +228,6 @@ footer div {
     min-width: auto;
     margin:30px;
 }
-
 .caja {
     border: solid 8px #cab38593;
     color: white;
@@ -394,7 +315,6 @@ iframe {
 
     }
 }
-
 @media(max-width:950){
     .rama-esp{flex-direction: column;
     }
