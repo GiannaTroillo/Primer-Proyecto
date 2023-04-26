@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .header {
     background-image: linear-gradient(to right, #e2d4c2e8, #a87b274d, #af7b3f7e);
     display: flex;
@@ -10,22 +11,27 @@
     align-items: center;
     min-height: 15vh;
 }
+
 .header nav ul {
     list-style: none;
     display: flex;
 }
+
 .header a {
     color: white;
     text-decoration: none;
     padding: 0 20px;
 }
+
 .logo {
     width: 100px;
     height: 100px;
 }
+
 main {
     min-height: 70vh;
 }
+
 footer {
     min-height: 15vh;
     background-image: linear-gradient(to left, #e2d4c2e8, #a87b274d, #af7b3f7e);
@@ -37,21 +43,25 @@ footer {
     align-items: center;
 
 }
+
 footer div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .icono {
     width: 35px;
     height: 35px;
 }
+
 .back-principal {
     background-image: url(../recursos/pecas.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /*---------------ESTILO DEL INDEX-------------------*/
 .in-bg {
     background-image: url(../recursos/pecas.jpg);
@@ -59,6 +69,7 @@ footer div {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .index-presentacion {
     color: #fcfbfbd5;
     border: #cab38534 5px solid;
@@ -67,19 +78,23 @@ footer div {
     margin: 45px;
     margin-top: 100px;
 }
+
 .index-presentacion h1 {
     font-size: 25px;
     font-weight: 700;
     padding: 30px;
 }
+
 .index-presentacion h2 {
     font-size: 20px;
 }
+
 .index-presentacion h3 {
     font-size: 20px;
     font-style: oblique;
     padding: 25px;
 }
+
 /*--------------------------------------------TRAYECTORIA----------------------------*/
 #doctorcita {
     width: 400px;
@@ -87,15 +102,18 @@ footer div {
     margin: 10px;
     border: solid 14px #fffcfc4b;
 }
+
 .trayectoria {
     background-color: #e4e0de54;
 }
+
 .trayectoria h1 {
     color: #fffcfcc5;
     font-size: 30px;
     text-align: center;
     padding-top: 15px;
 }
+
 .seccion-trayectoria {
     color: #fffcfcc5;
     display: flex;
@@ -103,27 +121,36 @@ footer div {
     justify-content: space-evenly;
     align-items: center;
 }
+
 .seccion-trayectoria p {
     padding: 20px;
     max-width: 600px;
 }
+
 /*------------------------ESPECIALIDADES----------------------*/
 
-.rama-grilla{
+.rama-grilla {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.rama-esp{
+
+.rama-esp {
     color: white;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.rama-esp ul li{
+.rama-esp h2{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.rama-esp ul li {
     list-style: none;
 }
-/*----------------------grilla clinica------------*/
+
 .grid-dc {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -138,6 +165,7 @@ footer div {
     margin: 10px;
 
 }
+
 .imagendc {
     margin: 5px;
     background-position: center;
@@ -145,33 +173,41 @@ footer div {
     background-size: cover;
     transition: 0.5s;
 }
+
 .imagendc:hover {
     scale: 1.1;
 }
+
 .imagen1 {
     grid-area: imagen1;
     background-image: url(../recursos/lunar.jfif)
 }
+
 .imagen2 {
     grid-area: imagen2;
     background-image: url(../recursos/melanoma.jpg)
 }
+
 .imagen3 {
     grid-area: imagen3;
     background-image: url(../recursos/pso.jfif)
 }
+
 .imagen4 {
     grid-area: imagen4;
     background-image: url(../recursos/alopecia.jfif)
 }
+
 .imagen5 {
     grid-area: imagen5;
     background-image: url(../recursos/acne.jfif)
 }
+
 .imagen6 {
     grid-area: imagen6;
     background-image: url(../recursos/micosis.jfif)
 }
+
 /*-----------grilla estetica-----------*/
 .grid-de {
     display: grid;
@@ -186,39 +222,48 @@ footer div {
     background-color: #f3eee99a;
     margin: 15px;
 }
+
 .imagende {
     margin: 5px;
     background-position: center;
     background-size: cover;
     transition: 0.5s;
 }
+
 .imagende:hover {
     scale: 1.1;
 }
+
 .imagen7 {
     grid-area: imagen7;
     background-image: url(../recursos/peeling-fac.jfif)
 }
+
 .imagen8 {
     grid-area: imagen8;
     background-image: url(../recursos/btx.jpg)
 }
+
 .imagen9 {
     grid-area: imagen9;
     background-image: url(../recursos/abdo.jpg)
 }
+
 .imagen10 {
     grid-area: imagen10;
     background-image: url(../recursos/arm-fac.jpg)
 }
+
 .imagen11 {
     grid-area: imagen11;
     background-image: url(../recursos/tres-2.jpg)
 }
+
 .imagen12 {
     grid-area: imagen12;
     background-image: url(../recursos/labios.jpg)
 }
+
 /*----------------ESTILO DE CONTACTO-----------------------*/
 .seccion-contacto {
     display: flex;
@@ -226,8 +271,9 @@ footer div {
     flex-wrap: wrap;
     justify-content: space-around;
     min-width: auto;
-    margin:30px;
+    margin: 30px;
 }
+
 .caja {
     border: solid 8px #cab38593;
     color: white;
@@ -236,31 +282,38 @@ footer div {
     height: 450px;
     margin: 10px;
 }
+
 .caja h2 {
     text-align: center;
 }
-.caja p{
+
+.caja p {
     text-align: left;
 }
-input {    
+
+input {
     background: #f3e1be94;
     border: solid #5a4b4ba2 1.5px;
     display: block;
     margin: 5px;
     padding: 5px;
-    min-width: 420px;}
+    min-width: 420px;
+}
+
 textarea {
-    background: #f3e1be94;  
+    background: #f3e1be94;
     border: solid #5a4b4ba2 1.5px;
     display: block;
     margin-top: 10px;
     margin-left: 5px;
 
 }
+
 iframe {
     width: 425px;
     height: 400px;
 }
+
 /*----------------MQ-----------------*/
 @media (max-width:700px) {
     .header nav ul {
@@ -271,6 +324,7 @@ iframe {
     .header li {
         padding: 6px;
     }
+
     footer {
         flex-direction: column;
         justify-content: center;
@@ -302,39 +356,42 @@ iframe {
     .seccion-trayectoria {
         flex-direction: column-reverse;
     }
+
     #doctorcita {
         width: 215px;
         height: 283px;
         border: solid 15px #fffcfc4b;
     }
-.caja h2{
-    font-size: 18px;
-}
+
+    .caja h2 {
+        font-size: 18px;
+    }
+
     .caja p {
         font-size: 16px;
 
     }
-}
-@media(max-width:950){
-    .rama-esp{flex-direction: column;
+    .rama-esp{
+        flex-direction: column;
     }
-
 }
+
+
 @media(max-width: 500px) {
-    .caja{
+    .caja {
         border: solid 5px #cab38593;
         width: 300px;
         height: 350px;
     }
-    input{
+
+    input {
         min-width: 270px;
         padding: 0%;
     }
-    textarea{
+
+    textarea {
         height: 300px;
         width: 270px;
     }
+   
 }
-
-
-
